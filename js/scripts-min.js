@@ -1,0 +1,1 @@
+$("#myCarousel").carousel({interval:1e4}),$(".carousel .item").each(function(){var i=$(this).next();i.length||(i=$(this).siblings(":first")),i.children(":first-child").clone().appendTo($(this)),i.next().length>0?i.next().children(":first-child").clone().appendTo($(this)):$(this).siblings(":first").children(":first-child").clone().appendTo($(this))});
