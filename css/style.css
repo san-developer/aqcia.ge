@@ -1,1 +1,50 @@
-# Empty CSS file for your own CSS
+.header-color {
+    background-color: #00bcd4;
+}
+
+.btn-search,
+.btn-search:focus {
+    background-color: #F88B22;
+    color: #fff;
+    font-weight: bold;
+    font-weight: bold !important;
+    height: 50px;
+    border-color: #F88B22;
+    text-align: center;
+}
+
+.btn-search:hover {
+    background-color: #DE5B00;
+    color: #fff;
+    font-weight: bold;
+    font-weight: bold !important;
+    text-align: center;
+    height: 50px;
+    border-color: #DE5B00;
+}
+
+.header-top {
+    background-color: #FAFAFA;// #F9B200;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    color: white !important;
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 25px;
+    box-sizing: initial;
+}
+
+.header-top a {
+    color: #FBC200;
+    border-color: #FDD736;
+    border-width: 1px;
+     border-style: solid;
+}
+
+body {
+    background-image: url('../img/header_top_1.png'), url('../img/header_top_2.jpg');
+    background-repeat: repeat-x, repeat, repeat;
+    background-position: 0px 30px, 0% 0%, 0% 0%;
+}
