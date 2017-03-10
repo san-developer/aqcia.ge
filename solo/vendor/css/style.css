@@ -1,0 +1,61 @@
+@import "_style";
+:root {
+  --first-color: #ddd;
+  --second-color: #666;
+  --third-color: #000;
+  --input-border-color: #aaa;
+}
+
+header {
+    background-color: var(--first-color);
+    color: black;
+}
+
+header a {
+    color: var(--second-color);
+}
+
+header a:hover {
+    color: var(--third-color);
+}
+
+.navbar {
+    margin: 20px 0;
+}
+
+ul.search-nav {
+    width: 100%;
+    margin-right: -299px;
+}
+
+.search {
+    width: 100%;
+    margin-top: 1px;
+    padding: 5px 260px 5px 20px;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+.navbar-collapse {
+
+    text-align: center;
+}
+
+.search-input {
+    width: 100%;
+    margin-right: -44px;
+    padding: 4px 43px 6px 4px;
+}
+
+.search .btn-default {
+    border-color: var(--input-border-color);
+    border-radius: 0;
+}
+
+@media (max-width: 768px){
+    .search{
+        padding-right: 20px
+    }
+}
