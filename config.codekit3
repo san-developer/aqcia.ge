@@ -119,6 +119,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -169,6 +179,14 @@
 		"oAP": "\/humans.txt",
 		"oF": 0
 		},
+	"\/img\/17101249_789217897895138_1028280617_o.jpg": {
+		"ft": 16384,
+		"iS": 168215,
+		"oA": 0,
+		"oAP": "\/img\/17101249_789217897895138_1028280617_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/closes.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -189,6 +207,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/discounts.jpg": {
+		"ft": 16384,
+		"iS": 127138,
+		"oA": 0,
+		"oAP": "\/img\/discounts.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/eat.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -199,11 +225,35 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/header_top_1.png": {
+		"ft": 32768,
+		"iS": 142,
+		"oA": 0,
+		"oAP": "\/img\/header_top_1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/header_top_2.jpg": {
+		"ft": 16384,
+		"iS": 1392,
+		"oA": 0,
+		"oAP": "\/img\/header_top_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 24889,
 		"oA": 0,
 		"oAP": "\/img\/logo.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/Mtskheta.png": {
+		"ft": 32768,
+		"iS": 890014,
+		"oA": 0,
+		"oAP": "\/img\/Mtskheta.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -229,6 +279,22 @@
 		"oAP": "\/img\/test\/Untitled.sketch",
 		"oF": 0
 		},
+	"\/img\/test_1.jpg": {
+		"ft": 16384,
+		"iS": 53574,
+		"oA": 0,
+		"oAP": "\/img\/test_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/test_2.jpg": {
+		"ft": 16384,
+		"iS": 3630,
+		"oA": 0,
+		"oAP": "\/img\/test_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -239,6 +305,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index2.html",
+		"oF": 0
+		},
+	"\/index3.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index3.html",
+		"oF": 0
+		},
+	"\/index4.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index4.html",
 		"oF": 0
 		},
 	"\/js\/bootstrap.min.js": {
@@ -273,6 +351,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/plugins-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scripts-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
