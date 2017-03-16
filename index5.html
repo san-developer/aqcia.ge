@@ -69,19 +69,9 @@
                     <div class="col-md-2" style="margin-top: -1px;">
                         <ul class="login-register">
                             <li>
-                                <a data-toggle="collapse" class="btn btn-default" data-target="#cat" href="#" style="
-    background: #ffa500;
-    height: auto;
-    padding: 10px 15px ;
-    text-align: center;
-    font-size: 24px;
-    border-radius: 5px;
-    color: white; text-decoration: none;
-border-color: white;
-    /* font-weight: bold; */
-">
+                                <button type="button" data-toggle="collapse" class="btn btn-primary categories" data-target="#cat">
                                     კატეგორიები
-                                </a>
+                                    </a>
                             </li>
                         </ul>
                     </div>
@@ -152,7 +142,12 @@ border-color: white;
                         <ul class="nav nav-pills flexnav flexnav-icons flexnav-icons-top flexnav-border" id="flexnav">
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-cutlery"></i>Food & Drink
+                                    <i class="fa fa-bars"></i>ყველა
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-cutlery"></i>კვება
                                 </a>
                             </li>
                             <li>
@@ -524,9 +519,26 @@ border-color: white;
                                         </li>
                                     </ul>
                                 </div>
-                                <p class="product-location">
-                                    <i class="fa fa-map-marker"></i>
-                                    Boston</p>
+                                <div class="product-location">
+                                    <div class="btn-add">
+                                        <span class="product-time">
+                                            <i class="fa fa-clock-o"></i>
+                                            9 დღე 36 საათი
+                                        </span>
+                                    </div>
+                                    <div class="btn-details">
+                                        <ul class="product-price-list">
+                                            <li>
+                                                <span class="product-old-price">$231</span>
+                                            </li>
+                                            <li>
+                                                <span class="product-price">143ლ</span>
+                                            </li>
+                                        </ul>
+                                        <!--  <span class="product-save">დაზოგე 62%
+                                    </span> -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -641,36 +653,7 @@ border-color: white;
             <h2 class="mb30">New Deals in Your City
             </h2>
             <div class="row row-wrap" id="masonry">
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Lovely Ice Cream Spoons
-                            </h5>
-                            <div class="product-desciption">Nisl enim euismod libero sem vitae
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    8 days 14 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$99</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$165</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="Green Furniture" /> </header>
@@ -699,7 +682,7 @@ border-color: white;
                         </div>
                     </div>
                 </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" /> </header>
@@ -728,7 +711,7 @@ border-color: white;
                         </div>
                     </div>
                 </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="the best mode of transport here in maldives" /> </header>
@@ -757,152 +740,7 @@ border-color: white;
                         </div>
                     </div>
                 </a>
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Best Camera
-                            </h5>
-                            <div class="product-desciption">Faucibus metus conubia maecenas cras potenti
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    1 day 23 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$82</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$233</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Aspen Lounge Chair" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Aspen Lounge Chair
-                            </h5>
-                            <div class="product-desciption">Arcu rhoncus nullam eros dictum torquent integer
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    1 day 7 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$110</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$298</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="waipio valley" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Awesome Vacation
-                            </h5>
-                            <div class="product-desciption">Sem sociis molestie tellus purus quam
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    3 days 9 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$40</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$129</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Hot mixer" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Modern DJ Set
-                            </h5>
-                            <div class="product-desciption">Ipsum malesuada amet velit aliquam urna
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    6 days 58 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$39</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$130</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Old No7" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Jack Daniels Huge Pack
-                            </h5>
-                            <div class="product-desciption">Fermentum id morbi dis magnis
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    7 days 48 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$122</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$218</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="The Hidden Power of the Heart" /> </header>
@@ -931,7 +769,7 @@ border-color: white;
                         </div>
                     </div>
                 </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="Gamer Chick" /> </header>
@@ -960,7 +798,7 @@ border-color: white;
                         </div>
                     </div>
                 </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" /> </header>
@@ -989,7 +827,7 @@ border-color: white;
                         </div>
                     </div>
                 </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="Food is Pride" /> </header>
@@ -1018,7 +856,7 @@ border-color: white;
                         </div>
                     </div>
                 </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="Our Coffee miss u" /> </header>
@@ -1047,7 +885,7 @@ border-color: white;
                         </div>
                     </div>
                 </a>
-                <a class="col-md-2 col-masonry" href="#">
+                <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
                             <img src="img/800x600.png" alt="Image Alternative text" title="AMaze" /> </header>
@@ -1067,93 +905,6 @@ border-color: white;
                                     </li>
                                     <li>
                                         <span class="product-old-price">$143</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Ana 29" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Hot Summer Collection
-                            </h5>
-                            <div class="product-desciption">Fusce dignissim leo tellus accumsan risus lobortis
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    1 day 22 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$111</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$159</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="a turn" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Diving with Sharks
-                            </h5>
-                            <div class="product-desciption">Molestie accumsan felis laoreet phasellus
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    10 days 17 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$117</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$230</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location">
-                                <i class="fa fa-map-marker"></i>
-                                Boston</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-2 col-masonry" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="cascada" /> </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Adventure in Woods
-                            </h5>
-                            <div class="product-desciption">Tempor ut mollis malesuada quis
-                            </div>
-                            <div class="product-meta">
-                                <span class="product-time">
-                                    <i class="fa fa-clock-o"></i>
-                                    5 days 44 h
-                                </span>
-                                <ul class="product-price-list">
-                                    <li>
-                                        <span class="product-price">$67</span>
-                                    </li>
-                                    <li>
-                                        <span class="product-old-price">$111</span>
                                     </li>
                                 </ul>
                             </div>

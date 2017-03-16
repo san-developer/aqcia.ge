@@ -153,7 +153,6 @@ body {
     border-radius: 3px;
     background-color: #fff;
     line-height: 45px;
-    text-align: center;
     display: inline-block;
     margin-right: 3%;
     border-radius: 0;
@@ -335,7 +334,7 @@ body {
     height: 52px;
 }
 
-.col-item .separator {
+.separator {
     border-top: 1px solid #E1E1E1;
 }
 
@@ -343,7 +342,7 @@ body {
     clear: left;
 }
 
-.col-item .separator {
+.separator {
     border-top: 1px dashed #e6e6e6;
     margin-top: 13px;
     padding-top: 8px;
@@ -359,18 +358,18 @@ body {
     margin-right: 5px;
 }
 
-.col-item .btn-add {
+.btn-add {
     width: 50%;
     float: left;
     padding-top: 8px;
 }
 
-.col-item .btn-add {
+ .btn-add {
     border-right: 1px solid #E1E1E1;
     font-weight: bold;
 }
 
-.col-item .btn-details {
+.btn-details {
     width: 50%;
     float: left;
     padding-left: 10px;
@@ -401,7 +400,6 @@ body {
     -o-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    text-align: center;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     -webkit-border-radius: 5px;
@@ -448,4 +446,16 @@ body {
 .nav-pills {
     width: 100%;
     display: table;
+}
+
+.categories {
+    background: #ffa500!important;;
+    height: auto!important;;
+    padding: 10px 15px!important;;
+    text-align: center!important;;
+    font-size: 24px!important;;
+    border-radius: 5px!important;;
+    color: white!important;;
+    border-color: white!important;;
+    outline: none !important;
 }
