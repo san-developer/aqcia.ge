@@ -822,7 +822,6 @@ label {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     /*transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);*/
     position: absolute;
@@ -1204,6 +1203,7 @@ label {
     margin-bottom: 0;
     color: #a3a3a3;
     font-size: 12px;
+    height: 25px;
 }
 
 .product-thumb {
@@ -1302,7 +1302,7 @@ label {
 .product-price-list {
     font-size: 15px;
     margin-bottom: 0;
-     text-align: center !important;
+    text-align: center !important;
 }
 
 .product-price-list > li > span {
@@ -1310,7 +1310,6 @@ label {
     line-height: 30px;
     text-align: center !important;
     height: 30px;
-
 }
 
 .product-price {
