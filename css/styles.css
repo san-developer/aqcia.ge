@@ -374,7 +374,7 @@ blockquote p {
 .gap {
     display: block;
     position: relative;
-    margin: 30px 0 30px 0;
+    padding: 30px 0 30px 0;
     clear: both;
     overflow: hidden;
 }
@@ -2290,6 +2290,8 @@ header.main.fixed {
 .top-area {
     position: relative;
     overflow: hidden;
+    background-color: white;
+    padding-bottom: 40px;
 }
 
 @media (max-width: 768px) {

@@ -26,6 +26,9 @@
         <![endif]-->
     <!-- Your custom styles (blank file) -->
     <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+    <script src="js/jquery.js"></script>
 </head>
 
 <body>
@@ -192,7 +195,7 @@
                 </header>
             </div>
         </div>
-        <div class="gap"></div>
+        <div class="gap" style="background-color: white;"></div>
         <!-- TOP AREA -->
         <div class="top-area">
             <!--  <div class="container">
@@ -419,7 +422,7 @@
                     </div> -->
                 </div>
             </div>
-            <div class="js-merchant-ribbon merchant-ribbon">
+            <!--   <div class="js-merchant-ribbon merchant-ribbon">
                 <div class="recommended-merchants-well ">
                     <h3 class="h4">Shop today's trending deals and save big
                     </h3>
@@ -468,11 +471,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
-    <div class="gap"></div>
-    <div class="container">
+    <!--  <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="text-center">
@@ -484,19 +486,51 @@
             </div>
         </div>
         <div class="gap"></div>
-    </div>
+    </div> -->
     <div class="bg-holder">
-        <div class="bg-mask"></div>
-        <div class="bg-blur" style="background-image:url(img/backgrounds/phone.jpg)"></div>
+        <h2 class="h4 top-offers-title">
+            <span class="title-lines">პოპულარული აქციები</span>
+        </h2>
+        <!--   <div class="bg-blur" style="background-image:url(img/backgrounds/phone.jpg)"></div> -->
         <div class="container bg-holder-content">
-            <div class="gap gap-big text-center">
-                <h1 class="mb30 text-white">კვირის აქციები
-                </h1>
-                <div class="row row-wrap">
-                    <a class="col-md-4" href="#">
+            <div class="text-center">
+                <div class="row row-wrap owl-carousel owl-theme">
+                    <a class="item" href="#">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" /> </header>
+                                <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="The Violin" /> </header>
+                            <div class="product-inner">
+                                <h5 class="product-title">Violin Lessons
+                                </h5>
+                                <p class="product-desciption">Placerat odio conubia tristique vel primis eu felis Placerat odio conubia tristique vel primis eu felis Placerat odio conubia tristique vel primis eu felis Placerat odio conubia tristique vel primis eu felis Placerat odio conubia tristique vel primis eu felis Placerat odio conubia tristique vel primis eu felis
+                                </p>
+                                <div class="product-location">
+                                    <div class="btn-add">
+                                        <span class="product-time">
+                                            <i class="fa fa-clock-o"></i>
+                                            9 დღე 36 საათი
+                                        </span>
+                                    </div>
+                                    <div class="btn-details">
+                                        <ul class="product-price-list">
+                                            <li>
+                                                <span class="product-old-price">$231</span>
+                                            </li>
+                                            <li>
+                                                <span class="product-price">143ლ</span>
+                                            </li>
+                                        </ul>
+                                        <!--  <span class="product-save">დაზოგე 62%
+                                    </span> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="item" href="#">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="The Violin" /> </header>
                             <div class="product-inner">
                                 <h5 class="product-title">Violin Lessons
                                 </h5>
@@ -542,10 +576,10 @@
                             </div>
                         </div>
                     </a>
-                     <a class="col-md-4" href="#">
+                    <a class="item" href="#">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" /> </header>
+                                <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="The Violin" /> </header>
                             <div class="product-inner">
                                 <h5 class="product-title">Violin Lessons
                                 </h5>
@@ -591,10 +625,59 @@
                             </div>
                         </div>
                     </a>
-                   <a class="col-md-4" href="#">
+                    <a class="item" href="#">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" /> </header>
+                                <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="The Violin" /> </header>
+                            <div class="product-inner">
+                                <h5 class="product-title">Violin Lessons
+                                </h5>
+                                <p class="product-desciption">Placerat odio conubia tristique vel primis eu felis
+                                </p>
+                                <div class="product-meta">
+                                    <span class="product-time">
+                                        <i class="fa fa-clock-o"></i>&nbsp; 9 days 36 h remaining
+                                    </span>
+                                    <ul class="product-price-list">
+                                        <li>
+                                            <span class="product-price">$74</span>
+                                        </li>
+                                        <li>
+                                            <span class="product-old-price">$148</span>
+                                        </li>
+                                        <li>
+                                            <span class="product-save">Save 50%
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product-location">
+                                    <div class="btn-add">
+                                        <span class="product-time">
+                                            <i class="fa fa-clock-o"></i>
+                                            9 დღე 36 საათი
+                                        </span>
+                                    </div>
+                                    <div class="btn-details">
+                                        <ul class="product-price-list">
+                                            <li>
+                                                <span class="product-old-price">$231</span>
+                                            </li>
+                                            <li>
+                                                <span class="product-price">143ლ</span>
+                                            </li>
+                                        </ul>
+                                        <!--  <span class="product-save">დაზოგე 62%
+                                    </span> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="item" href="#">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="The Violin" /> </header>
                             <div class="product-inner">
                                 <h5 class="product-title">Violin Lessons
                                 </h5>
@@ -641,21 +724,22 @@
                         </div>
                     </a>
                 </div>
-                <a href="#" class="btn btn-white btn-lg btn-ghost">Find More
-                </a>
+                <!--  <a href="#" class="btn btn-black btn-lg btn-ghost">ყველა აქცია
+                </a> -->
             </div>
         </div>
     </div>
     <div class="gap"></div>
     <div class="container">
         <div class="text-center">
-            <h2 class="mb30">New Deals in Your City
+            <h2 class="h4 top-offers-title">
+                <span class="title-lines">ახალი აქციები</span>
             </h2>
             <div class="row row-wrap" id="masonry">
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Green Furniture" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="Green Furniture" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">Green Furniture Pack
                             </h5>
@@ -684,7 +768,7 @@
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">Electronics Big Deal
                             </h5>
@@ -713,7 +797,7 @@
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="the best mode of transport here in maldives" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="the best mode of transport here in maldives" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">Finshing in Maldives
                             </h5>
@@ -742,7 +826,7 @@
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="The Hidden Power of the Heart" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="The Hidden Power of the Heart" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">Beach Holidays
                             </h5>
@@ -771,7 +855,7 @@
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Gamer Chick" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="Gamer Chick" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">Playstation Accessories
                             </h5>
@@ -800,7 +884,7 @@
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="The Violin" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">Violin Lessons
                             </h5>
@@ -829,7 +913,7 @@
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Food is Pride" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="Food is Pride" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">Best Pasta
                             </h5>
@@ -858,7 +942,7 @@
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Our Coffee miss u" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="Our Coffee miss u" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">Coffe Shop Discount
                             </h5>
@@ -887,7 +971,7 @@
                 <a class="col-md-4 col-masonry" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="AMaze" /> </header>
+                            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/s960x960/13517473_900445913410740_1422640766476202501_o.png?oh=284e9df5b6c8e9391abb5b09639d7730&oe=592E2522" alt="Image Alternative text" title="AMaze" /> </header>
                         <div class="product-inner">
                             <h5 class="product-title">New Glass Collection
                             </h5>
@@ -1153,7 +1237,27 @@
 //////////////END MAIN  FOOTER/////////
 ////////////////////////////////////-->
     <!-- Scripts queries -->
-    <script src="js/jquery.js"></script>
+        <script type="text/javascript">
+    $(document).ready(function() {
+        var owl = $('.owl-carousel');
+        debugger
+        owl.owlCarousel({
+            items: 3,
+            loop: false,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            nav: true,
+            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+            navClass: ['owl-prev', 'owl-next'],
+            dotClass: 'owl-dot'
+        });
+    });
+
+    </script>
+
+    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/countdown.min.js"></script>
     <script src="js/flexnav.min.js"></script>
@@ -1171,6 +1275,9 @@
     <script src="js/nicescroll.js"></script>
     <!-- Custom scripts -->
     <script src="js/custom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+
 </body>
 
 </html>
