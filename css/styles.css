@@ -727,7 +727,7 @@ label {
     transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     font-size: 19px;
     color: #fff;
-    /*background: #2a8fbd;*/
+    background: white;
     padding: 10px 0;
     overflow: hidden;
     font-family: BPGNinoMkhed, arial, helvetica, sans-serif;
@@ -2239,7 +2239,7 @@ body.boxed footer.main .footer-copyright {
 .top-main-area .login-register > li > a {
     height: 32px;
     line-height: 32px;
-    color: #D44188;
+    color: white;
     font-size: 16px;
 }
 
@@ -2558,7 +2558,7 @@ footer.main a {
 
 .login-register > li {
     display: inline-block;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.8);
     position: relative;
 }
 
