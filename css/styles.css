@@ -2239,16 +2239,16 @@ body.boxed footer.main .footer-copyright {
 .top-main-area .login-register > li > a {
     height: 32px;
     line-height: 32px;
-    /*color: white;*/
+    color: #0099cc;
     font-size: 90%;
 }
 
 .top-main-area.top-main-area-dark .login-register > li {
-    border-color: #0099cc;
+    border-color: #0099cc ;
 }
 
 .top-main-area.top-main-area-dark .login-register > li > a {
-    color: #0099cc;
+    /*color: #0099cc;*/
 }
 
 header.main {
@@ -2558,14 +2558,14 @@ footer.main a {
 }
 
 .login-register > li {
-    display: inline-block;
-    border-right: 1px solid rgba(0,153,204, 1);
-    position: relative;
+    /*display: inline-block;*/
+   /* border-right: 1px solid rgba(0,153,204, 1);*/
+    /*position: relative;*/
 }
 
 .login-register > li > a {
-    font-size: 11px;
-    text-transform: uppercase;
+    /*font-size: 11px;*/
+    /*text-transform: uppercase;
     padding: 0 13px;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -2574,11 +2574,11 @@ footer.main a {
     transition: 0.2s;
     display: block;
     line-height: 50px;
-    height: 50px;
+    height: 50px;*/
 }
 
 .login-register > li > a [class^="fa fa-"] {
-    -webkit-transition: 0.2s;
+   /* -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
     -ms-transition: 0.2s;
@@ -2589,7 +2589,7 @@ footer.main a {
     filter: alpha(opacity=50);
     font-size: 16px;
     line-height: 0;
-    position: relative;
+    position: relative;*/
 }
 
 .login-register > li > a:hover [class^="fa fa-"] {

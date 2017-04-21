@@ -29,81 +29,57 @@
     <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
     <script src="js/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css">
+  <link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/bpg-web-002-caps/css/bpg-web-002-caps.min.css">
 </head>
 
 <body>
-    <div class="top-section">
-        <!-- //////////////////////////////////
-            //////////////MAIN HEADER/////////////
-            ////////////////////////////////////-->
-        <div class="header-container">
-            <div class="header">
-                <div class="top-main-area" style="background-color:  #ffffff">
-                    <div class="container container--full">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div>
-                                    <a href="index.html" class="logo">
-                                        <img src="img/logo.png" style="height: 55px;" alt="Image Alternative text" title="Image Title" />
-                                    </a>
-                                    <form class="search-area form-group">
-                                        <!-- <div class="row"> -->
-                                        <div class="col-md-10 col-xs-10 clearfix">
-                                            <div class="search-area-division search-area-division-input" style="width: 100%">
-                                                <input class="form-control" type="text" placeholder="რას ეძებთ?" /> </div>
-                                        </div>
-                                        <!--   <div class="col-md-3 clearfix">
-                                                <label>
-                                                    <i class="fa fa-map-marker"></i>
-                                                </label>
-                                                <div class="search-area-division search-area-division-location">
-                                                    <input class="form-control" type="text" placeholder="Boston" />
-                                                    <!-- <span>In</span> 
-                                                </div>
-                                            </div> -->
-                                        <div class="col-md-2 col-xs-2" style="position: initial;">
-                                            <button type="button" class="btn btn-primary">
-                                                <span class="glyphicon glyphicon-search" style="font-size: 27px;" aria-hidden="true"></span>
-                                            </button>
-                                            <!-- <button class="btn btn-block btn-white search-btn" type="submit">ძებნა</button> -->
-                                        </div>
-                                        <!-- </div> -->
-                                    </form>
-                                </div>
-                            </div>
-                            <!-- <div class="col-md-5">
-                                SEARCH AREA
-                              
-                            </div> -->
-                            <div class="col-md-6" style="margin-top: -1px;">
-                                <div class="pull-right">
-                                    <ul class="login-register">
-                                        <li>
-                                            <button type="button" data-toggle="collapse" class="btn btn-primary categories" data-target="#cat">
-                                                კატეგორიები
-                                                </a>
-                                        </li>
-                                    </ul>
-                                    <ul class="login-register">
-                                        <li>
-                                            <a class="popup-text" href="#login-dialog" data-effect="mfp-move-from-top">
-                                                <i class="fa fa-sign-in"></i>ავტორიზაცია
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top">
-                                                <i class="fa fa-edit"></i>რეგისტრაცია
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+    <div class="main-content">
+        <header class="site-header " id="top">
+            <div class="container container--full">
+                <a href="index.html" id="logo">
+                    <div class="logo">
+                        <img src="img/logo.png"  alt="Image Alternative text" title="Image Title" />
                     </div>
+                </a>
+               
+                <nav class="site-nav" role="navigation">
+                    <ul class="site-nav-list">
+                        <button type="button" data-toggle="collapse" 
+                        class="btn btn-primary categories header-button site-nav-link" data-target="#cat">
+                            კატეგორიები
+                        </button>
+                        <ul class="user-bar js-user-bar login-register">
+                            <li class="site-nav-item">
+                                <a class="popup-text site-nav-link" href="#login-dialog" data-effect="mfp-move-from-top">
+                                    <i class="fa fa-sign-in"></i>&nbsp;ავტორიზაცია
+                                </a>
+                            </li>
+                            <li class="site-nav-item">
+                                <a class="popup-text site-nav-link" href="#register-dialog" data-effect="mfp-move-from-top">
+                                    <i class="fa fa-edit"></i>&nbsp;რეგისტრაცია
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+                 <div id="search-form" class="search-form js-search-form">
+                    <form class="form-search inline-form-elements">
+                        <input class="query" type="text" placeholder="რას ეძებთ?" />
+                       
+                        <button type="button" class="btn btn-primary button-search">
+                            <!-- <span class="glyphicon glyphicon-search" style="font-size: 1.5em;" aria-hidden="true"></span> -->
+                        ძებნა
+                        </button>
+                   
+                    </form>
                 </div>
-                <!-- SEARCH AREA -->
-                <!-- END SEARCH AREA -->
-                <div id="cat" class="collapse">
+               
+              
+            </div>
+        </header>
+          <div id="cat" class="collapse">
                     <div class="middle-section" style="background-color: #59A5B1">
                         <header class="main main-white">
                             <div class="container">
@@ -160,13 +136,11 @@
                         </header>
                     </div>
                 </div>
-            </div>
-        </div>
         <!-- <div class="gap" style="background-color: white;"></div> -->
         <!-- TOP AREA -->
         <div class="top-area">
             <div class="container">
-                <h1 class="h2 headline-title">პოპულარული აქციები</h1>
+                <h1 class="h2 headline-title" style='font-family: "ArchyEDT-Bold", sans-serif;'>პოპულარული აქციები</h1>
             </div>
             <!--  <div class="container">
                 <h1 class="h2 headline-title">აქციები, რომლებიც არ უნდა გამოტოვო
@@ -446,7 +420,7 @@
     </div>
     <div class="bg-holder">
         <h2 class="h4 top-offers-title">
-            <span class="title-lines">ახალი დამატებული აქციები</span>
+            <span class="title-lines" style='font-family: "ArchyEDT-Bold", sans-serif;'>ახალი დამატებული აქციები</span>
         </h2>
         <!--   <div class="bg-blur" style="background-image:url(img/backgrounds/phone.jpg)"></div> -->
         <div class="container bg-holder-content">
