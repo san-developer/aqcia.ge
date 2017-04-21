@@ -2551,6 +2551,7 @@ footer.main a {
 
 .login-register {
     list-style: none;
+    display: inline;
     margin: 0;
     /*float: right;*/
     padding: 0;
