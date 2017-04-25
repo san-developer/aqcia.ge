@@ -1,6 +1,6 @@
 @import url("https://cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
 
-@import url("https://cdn.web-fonts.ge/fonts/fonts/bpg-web-002-caps/css/bpg-web-002-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-quadrosquare-mtavruli/css/bpg-quadrosquare-mtavruli.min.css");
 
 .avatar--medium {
     max-width: 50px
@@ -6893,7 +6893,7 @@ input.query::webkit-search-cancel-button {
 }
 
 .carousel {
-    background: #fff
+   /* background: #fff */
 }
 
 .carousel-slide {
@@ -7660,9 +7660,8 @@ body {
     text-align: center;
     display: none
 }
-.carousel {
-    background: #fff
-}
+
+
 .carousel {
     padding: 10px 0
 }
@@ -7998,7 +7997,7 @@ body {
     /*padding-top: 40px;*/
     
     font-size: 35px;
-    color: #222;
+    color: #ffffff;
 }
 .info-body {
     height: 45px;
@@ -8165,7 +8164,7 @@ input[type=date],input[type=email],input[type=number],input[type=password],input
     display: block;
     width: 100%;
     padding: .5em;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #0099cc;
     border-radius: 3px;
     font-family: Avenir Next,Calibri,Helvetica,Roboto,sans-serif;
     font-size: 15px;
