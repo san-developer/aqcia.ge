@@ -216,7 +216,7 @@ body {
     padding: 0;
     border: 0;
     background: transparent;
-    fill: #259fc4;
+    fill: #006064;
     font-size: 15px;
     cursor: pointer
 }
@@ -242,7 +242,7 @@ button+button {
     -webkit-transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 1px;
-    background: #259fc4;
+    background: #006064;
     color: #fff;
     font-family: Helvetica Neue, sans-serif;
     font-size: 15px;
@@ -257,7 +257,7 @@ button+button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border-style: solid;
-    border-color: #259fc4;
+    border-color: #006064;
     border-radius: 3px
 }
 
@@ -293,7 +293,7 @@ button+button {
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 1px;
     background: transparent;
-    color: #259fc4;
+    color: #006064;
     font-family: Helvetica Neue, sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -307,7 +307,7 @@ button+button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border-style: solid;
-    border-color: #259fc4;
+    border-color: #006064;
     border-radius: 3px
 }
 
@@ -319,8 +319,8 @@ button+button {
 
 .button-secondary:focus,
 .button-secondary:hover {
-    border-color: #259fc4;
-    background-color: #259fc4;
+    border-color: #006064;
+    background-color: #006064;
     color: #fff;
     text-decoration: none
 }
@@ -339,7 +339,7 @@ button+button {
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 0;
     background: transparent;
-    color: #259fc4;
+    color: #006064;
     font-family: Helvetica Neue, sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -366,7 +366,7 @@ button+button {
 .button-text:hover {
     border-color: transparent;
     background-color: transparent;
-    color: #259fc4;
+    color: #006064;
     text-decoration: none
 }
 
@@ -571,7 +571,7 @@ button+button {
 }
 
 a {
-    color: #259fc4;
+    color: #006064;
     text-decoration: none
 }
 
@@ -802,7 +802,7 @@ video {
         color: #222
     }
     .coupon-comments .button-comment:hover .icon-chat-dots {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -821,7 +821,7 @@ video {
 }
 
 .coupon-comments .button-comment.is-active .icon-chat-dots {
-    fill: #259fc4
+    fill: #006064
 }
 
 .coupon-comments .button-comment .icon-chat-dots {
@@ -916,14 +916,14 @@ video {
 }
 
 .footer-app-banner .app-download-title {
-    color: #259fc4;
+    color: #006064;
     font-size: 15px;
     font-weight: 700
 }
 
 .footer-app-banner .app-download-arrow {
     padding-left: 15px;
-    fill: #259fc4;
+    fill: #006064;
     font-size: 24px
 }
 
@@ -1095,9 +1095,9 @@ h6 {
     padding: 0 .6em;
     border-radius: 100px;
     background: transparent;
-    color: #259fc4;
+    color: #006064;
     text-decoration: none;
-    border: 1px solid #259fc4
+    border: 1px solid #006064
 }
 
 .pill:focus,
@@ -1113,7 +1113,7 @@ h6 {
 }
 
 .pill .icon {
-    fill: #259fc4
+    fill: #006064
 }
 
 .pill .pill-text {
@@ -2004,7 +2004,7 @@ h6 {
     right: 0;
     height: 100%;
     content: "More";
-    color: #259fc4;
+    color: #006064;
     text-decoration: none
 }
 
@@ -2848,7 +2848,7 @@ select {
 .smartbanner .smartbanner-close {
     top: 30px;
     left: 8px;
-    fill: #259fc4
+    fill: #006064
 }
 
 .carousel {
@@ -2998,7 +2998,7 @@ select {
     position: absolute;
     top: 10px;
     right: 10px;
-    fill: #259fc4;
+    fill: #006064;
     cursor: pointer
 }
 
@@ -3195,7 +3195,7 @@ select {
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     border: 4px solid transparent;
-    border-top-color: #259fc4;
+    border-top-color: #006064;
     border-radius: 5000px
 }
 
@@ -3384,7 +3384,7 @@ select {
     transition: all .25s ease-out;
     border: 0;
     border-radius: 3px;
-    background: #259fc4;
+    background: #006064;
     color: #fff;
     font-family: Helvetica Neue, sans-serif;
     font-size: 15px;
@@ -3966,8 +3966,8 @@ select {
     position: absolute;
     top: .5em;
     right: .5em;
-    color: #259fc4;
-    fill: #259fc4;
+    color: #006064;
+    fill: #006064;
     font-size: 20px;
     cursor: pointer
 }
@@ -4680,7 +4680,7 @@ select {
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     border: 6px solid transparent;
-    border-top-color: #259fc4;
+    border-top-color: #006064;
     border-radius: 5000px
 }
 
@@ -5200,7 +5200,7 @@ select {
         color: #222
     }
     .offer-redemption-actions .offer-action-print:hover .icon-print {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5219,7 +5219,7 @@ select {
 }
 
 .offer-redemption-actions .offer-action-print.is-active .icon-print {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-actions .offer-action-email {
@@ -5235,7 +5235,7 @@ select {
         color: #222
     }
     .offer-redemption-actions .offer-action-email:hover .icon-envelope {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5254,7 +5254,7 @@ select {
 }
 
 .offer-redemption-actions .offer-action-email.is-active .icon-envelope {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-actions .offer-action-text {
@@ -5270,7 +5270,7 @@ select {
         color: #222
     }
     .offer-redemption-actions .offer-action-text:hover .icon-phone {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5289,7 +5289,7 @@ select {
 }
 
 .offer-redemption-actions .offer-action-text.is-active .icon-phone {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-actions [class*=offer-action-] .icon {
@@ -5831,7 +5831,7 @@ select {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-print:hover .icon-print {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5850,7 +5850,7 @@ select {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-print.is-active .icon-print {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-email {
@@ -5866,7 +5866,7 @@ select {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-email:hover .icon-envelope {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5885,7 +5885,7 @@ select {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-email.is-active .icon-envelope {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-text {
@@ -5901,7 +5901,7 @@ select {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-text:hover .icon-phone {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5920,7 +5920,7 @@ select {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-text.is-active .icon-phone {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-modal .offer-redemption-actions [class*=offer-action-] .icon {
@@ -6223,7 +6223,7 @@ select {
 }
 
 .popular-links .popular-content-text {
-    color: #259fc4;
+    color: #006064;
     margin-bottom: 0
 }
 
@@ -6235,7 +6235,7 @@ select {
 
 .popular-links .icon-close,
 .popular-links .icon-minus-circle {
-    fill: #259fc4;
+    fill: #006064;
     margin-top: 2px;
     margin-right: 6px
 }
@@ -6691,8 +6691,8 @@ select {
 .email-modal .email-modal-content-inner .button-close {
     border: 0;
     background: none;
-    fill: #259fc4;
-    color: #259fc4;
+    fill: #006064;
+    color: #006064;
     position: relative;
     cursor: pointer;
     top: 10px

@@ -74,7 +74,7 @@ body {
     padding: 0;
     border: 0;
     background: transparent;
-    fill: #259fc4;
+    fill: #006064;
     font-size: 15px;
     cursor: pointer
 }
@@ -100,7 +100,7 @@ button+button {
     -webkit-transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 1px;
-    background: #259fc4;
+    background: #006064;
     color: #fff;
     font-family: aqcia_font, Calibri, Helvetica, Roboto, sans-serif;
     font-size: 15px;
@@ -115,7 +115,7 @@ button+button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border-style: solid;
-    border-color: #259fc4;
+    border-color: #006064;
     border-radius: 3px
 }
 
@@ -151,7 +151,7 @@ button+button {
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 1px;
     background: transparent;
-    color: #259fc4;
+    color: #006064;
     font-family: aqcia_font, Calibri, Helvetica, Roboto, sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -165,7 +165,7 @@ button+button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border-style: solid;
-    border-color: #259fc4;
+    border-color: #006064;
     border-radius: 3px
 }
 
@@ -177,8 +177,8 @@ button+button {
 
 .button-secondary:focus,
 .button-secondary:hover {
-    border-color: #259fc4;
-    background-color: #259fc4;
+    border-color: #006064;
+    background-color: #006064;
     color: #fff;
     text-decoration: none
 }
@@ -197,7 +197,7 @@ button+button {
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 0;
     background: transparent;
-    color: #259fc4;
+    color: #006064;
     font-family: aqcia_font, Calibri, Helvetica, Roboto, sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -224,7 +224,7 @@ button+button {
 .button-text:hover {
     border-color: transparent;
     background-color: transparent;
-    color: #259fc4;
+    color: #006064;
     text-decoration: none
 }
 
@@ -432,7 +432,7 @@ button+button {
 }
 
 a {
-    color: #259fc4;
+    color: #006064;
     text-decoration: none
 }
 
@@ -664,7 +664,7 @@ video {
         color: #222
     }
     .coupon-comments .button-comment:hover .icon-chat-dots {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -683,7 +683,7 @@ video {
 }
 
 .coupon-comments .button-comment.is-active .icon-chat-dots {
-    fill: #259fc4
+    fill: #006064
 }
 
 .coupon-comments .button-comment .icon-chat-dots {
@@ -790,14 +790,14 @@ video {
 }
 
 .footer-app-banner .app-download-title {
-    color: #259fc4;
+    color: #006064;
     font-size: 15px;
     font-weight: 700
 }
 
 .footer-app-banner .app-download-arrow {
     padding-left: 15px;
-    fill: #259fc4;
+    fill: #006064;
     font-size: 24px
 }
 
@@ -969,9 +969,9 @@ h6 {
     padding: 0 .6em;
     border-radius: 100px;
     background: transparent;
-    color: #259fc4;
+    color: #006064;
     text-decoration: none;
-    border: 1px solid #259fc4
+    border: 1px solid #006064
 }
 
 .pill:focus,
@@ -987,7 +987,7 @@ h6 {
 }
 
 .pill .icon {
-    fill: #259fc4
+    fill: #006064
 }
 
 .pill .pill-text {
@@ -1889,7 +1889,7 @@ h6 {
     right: 0;
     height: 100%;
     content: "More";
-    color: #259fc4;
+    color: #006064;
     text-decoration: none
 }
 
@@ -3068,7 +3068,7 @@ div.slide-panel-footer {
     position: absolute;
     top: 10px;
     right: 10px;
-    fill: #259fc4;
+    fill: #006064;
     cursor: pointer
 }
 
@@ -3215,7 +3215,7 @@ div.slide-panel-footer {
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     border: 4px solid transparent;
-    border-top-color: #259fc4;
+    border-top-color: #006064;
     border-radius: 5000px
 }
 
@@ -3404,7 +3404,7 @@ div.slide-panel-footer {
     transition: all .25s ease-out;
     border: 0;
     border-radius: 3px;
-    background: #259fc4;
+    background: #006064;
     color: #fff;
     font-family: aqcia_font, Calibri, Helvetica, Roboto, sans-serif;
     font-size: 15px;
@@ -3986,8 +3986,8 @@ div.slide-panel-footer {
     position: absolute;
     top: .5em;
     right: .5em;
-    color: #259fc4;
-    fill: #259fc4;
+    color: #006064;
+    fill: #006064;
     font-size: 20px;
     cursor: pointer
 }
@@ -4700,7 +4700,7 @@ div.slide-panel-footer {
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     border: 6px solid transparent;
-    border-top-color: #259fc4;
+    border-top-color: #006064;
     border-radius: 5000px
 }
 
@@ -5220,7 +5220,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-actions .offer-action-print:hover .icon-print {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5239,7 +5239,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-actions .offer-action-print.is-active .icon-print {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-actions .offer-action-email {
@@ -5255,7 +5255,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-actions .offer-action-email:hover .icon-envelope {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5274,7 +5274,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-actions .offer-action-email.is-active .icon-envelope {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-actions .offer-action-text {
@@ -5290,7 +5290,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-actions .offer-action-text:hover .icon-phone {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5309,7 +5309,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-actions .offer-action-text.is-active .icon-phone {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-actions [class*=offer-action-] .icon {
@@ -5851,7 +5851,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-print:hover .icon-print {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5870,7 +5870,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-print.is-active .icon-print {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-email {
@@ -5886,7 +5886,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-email:hover .icon-envelope {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5905,7 +5905,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-email.is-active .icon-envelope {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-text {
@@ -5921,7 +5921,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-text:hover .icon-phone {
-        fill: #259fc4
+        fill: #006064
     }
 }
 
@@ -5940,7 +5940,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-text.is-active .icon-phone {
-    fill: #259fc4
+    fill: #006064
 }
 
 .offer-redemption-modal .offer-redemption-actions [class*=offer-action-] .icon {
@@ -6528,7 +6528,8 @@ input.query::webkit-search-cancel-button {
 
 .site-nav .site-nav-link.is-open,
 .site-nav .site-nav-link:hover {
-    /*background-color: #0099cc;
+    /*background-color: #006064
+;
     color:white;
     text-decoration: none*/
 }
@@ -6821,7 +6822,7 @@ input.query::webkit-search-cancel-button {
     position: absolute;
     top: 30px;
     left: 8px;
-    fill: #259fc4;
+    fill: #006064;
     cursor: pointer
 }
 
@@ -6972,7 +6973,7 @@ input.query::webkit-search-cancel-button {
 }
 
 .popular-links .popular-content-text {
-    color: #259fc4;
+    color: #006064;
     margin-bottom: 0
 }
 
@@ -6984,7 +6985,7 @@ input.query::webkit-search-cancel-button {
 
 .popular-links .icon-close,
 .popular-links .icon-minus-circle {
-    fill: #259fc4;
+    fill: #006064;
     margin-top: 2px;
     margin-right: 6px
 }
@@ -7440,8 +7441,8 @@ input.query::webkit-search-cancel-button {
 .email-modal .email-modal-content-inner .button-close {
     border: 0;
     background: none;
-    fill: #259fc4;
-    color: #259fc4;
+    fill: #006064;
+    color: #006064;
     position: relative;
     cursor: pointer;
     top: 10px
@@ -8036,7 +8037,7 @@ body {
 
 /*#237A87; 2190A1      41C1D4  hederis dzebnis gilaki*/
 .categories {
-    background: #0099cc !important;
+    background: #006064 !important;
     ;
     height: auto!important;
     ;
@@ -8164,7 +8165,7 @@ input[type=date],input[type=email],input[type=number],input[type=password],input
     display: block;
     width: 100%;
     padding: .5em;
-    border: 1px solid #0099cc;
+    border: 1px solid #006064;
     border-radius: 3px;
     font-family: Avenir Next,Calibri,Helvetica,Roboto,sans-serif;
     font-size: 15px;

@@ -267,9 +267,9 @@ blockquote p {
 }
 
 .btn-primary {
-    background: #0099cc !important;   /*#41C1D4 */
+    background: #006064 !important;   /*#41C1D4 */
     color: #fff;
-    border-color: #0099cc !important;
+    border-color: #006064 !important;
 }
 
 .btn-primary:hover {
@@ -1316,7 +1316,7 @@ label {
     font-weight: 600;
     color: #fff;
     padding: 1px 12px;
-    background: #2190A1;
+    background: #006064;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     height: auto;
@@ -2239,16 +2239,16 @@ body.boxed footer.main .footer-copyright {
 .top-main-area .login-register > li > a {
     height: 32px;
     line-height: 32px;
-    color: #0099cc;
+    color: #006064;
     font-size: 90%;
 }
 
 .top-main-area.top-main-area-dark .login-register > li {
-    border-color: #0099cc ;
+    border-color: #006064 ;
 }
 
 .top-main-area.top-main-area-dark .login-register > li > a {
-    /*color: #0099cc;*/
+    /*color: #006064;*/
 }
 
 header.main {
@@ -2290,7 +2290,7 @@ header.main.fixed {
 .top-area {
     position: relative;
     overflow: hidden;
-    background-color: #007399;
+    background-color: #006064;
     padding-bottom: 40px;
 }
 
