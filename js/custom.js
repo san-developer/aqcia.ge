@@ -302,14 +302,7 @@ $(document).ready(function() {
     ticker();
 
 
-     // footer always on bottom
-    var docHeight = $(window).height();
-   var footerHeight = $('#main-footer').height();
-   var footerTop = $('#main-footer').position().top + footerHeight;
-   
-   if (footerTop < docHeight) {
-    $('#main-footer').css('margin-top', (docHeight - footerTop) + 'px');
-   }
+
 
 });
 
@@ -347,4 +340,20 @@ $(window).load(function() {
             itemSelector: '.col-masonry'
         });
     }
+});
+
+$(function() {
+    var d = new Date();
+    d = d.setDate(d.getDate() + 2);
+    d = new Date(d);
+    
+    $('span#clock').countdown('2017/05/30 12:34:56')
+        .on('update.countdown', function(event) {
+            $(this).html(event.strftime('%D დღე %H:%M:%S'));
+        })
+        .on('finish.countdown', function(event) {
+            $(this).html('This offer has expired!')
+                .parent().addClass('disabled');
+
+        });
 });

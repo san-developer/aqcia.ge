@@ -11,7 +11,7 @@
 (function(factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as anonymous module.
-        define(['jquery'], factory);
+        define(['aqcia.gee/js/jquery'], factory);
     } else {
         // Browser globals.
         factory(jQuery);

@@ -74,7 +74,7 @@ body {
     padding: 0;
     border: 0;
     background: transparent;
-    fill: #006064;
+    fill: #009999;
     font-size: 15px;
     cursor: pointer
 }
@@ -100,7 +100,7 @@ button+button {
     -webkit-transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 1px;
-    background: #006064;
+    background: #009999;
     color: #fff;
     font-family: aqcia_font, Calibri, Helvetica, Roboto, sans-serif;
     font-size: 15px;
@@ -115,7 +115,7 @@ button+button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border-style: solid;
-    border-color: #006064;
+    border-color: #009999;
     border-radius: 3px
 }
 
@@ -151,7 +151,7 @@ button+button {
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 1px;
     background: transparent;
-    color: #006064;
+    color: #009999;
     font-family: aqcia_font, Calibri, Helvetica, Roboto, sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -165,7 +165,7 @@ button+button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border-style: solid;
-    border-color: #006064;
+    border-color: #009999;
     border-radius: 3px
 }
 
@@ -177,8 +177,8 @@ button+button {
 
 .button-secondary:focus,
 .button-secondary:hover {
-    border-color: #006064;
-    background-color: #006064;
+    border-color: #009999;
+    background-color: #009999;
     color: #fff;
     text-decoration: none
 }
@@ -197,7 +197,7 @@ button+button {
     transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease;
     border: 0;
     background: transparent;
-    color: #006064;
+    color: #009999;
     font-family: aqcia_font, Calibri, Helvetica, Roboto, sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -224,7 +224,7 @@ button+button {
 .button-text:hover {
     border-color: transparent;
     background-color: transparent;
-    color: #006064;
+    color: #009999;
     text-decoration: none
 }
 
@@ -432,7 +432,7 @@ button+button {
 }
 
 a {
-    color: #006064;
+    color: #009999;
     text-decoration: none
 }
 
@@ -664,7 +664,7 @@ video {
         color: #222
     }
     .coupon-comments .button-comment:hover .icon-chat-dots {
-        fill: #006064
+        fill: #009999
     }
 }
 
@@ -683,7 +683,7 @@ video {
 }
 
 .coupon-comments .button-comment.is-active .icon-chat-dots {
-    fill: #006064
+    fill: #009999
 }
 
 .coupon-comments .button-comment .icon-chat-dots {
@@ -790,14 +790,14 @@ video {
 }
 
 .footer-app-banner .app-download-title {
-    color: #006064;
+    color: #009999;
     font-size: 15px;
     font-weight: 700
 }
 
 .footer-app-banner .app-download-arrow {
     padding-left: 15px;
-    fill: #006064;
+    fill: #009999;
     font-size: 24px
 }
 
@@ -969,9 +969,9 @@ h6 {
     padding: 0 .6em;
     border-radius: 100px;
     background: transparent;
-    color: #006064;
+    color: #009999;
     text-decoration: none;
-    border: 1px solid #006064
+    border: 1px solid #009999
 }
 
 .pill:focus,
@@ -987,7 +987,7 @@ h6 {
 }
 
 .pill .icon {
-    fill: #006064
+    fill: #009999
 }
 
 .pill .pill-text {
@@ -1889,7 +1889,7 @@ h6 {
     right: 0;
     height: 100%;
     content: "More";
-    color: #006064;
+    color: #009999;
     text-decoration: none
 }
 
@@ -3068,7 +3068,7 @@ div.slide-panel-footer {
     position: absolute;
     top: 10px;
     right: 10px;
-    fill: #006064;
+    fill: #009999;
     cursor: pointer
 }
 
@@ -3215,7 +3215,7 @@ div.slide-panel-footer {
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     border: 4px solid transparent;
-    border-top-color: #006064;
+    border-top-color: #009999;
     border-radius: 5000px
 }
 
@@ -3404,7 +3404,7 @@ div.slide-panel-footer {
     transition: all .25s ease-out;
     border: 0;
     border-radius: 3px;
-    background: #006064;
+    background: #009999;
     color: #fff;
     font-family: aqcia_font, Calibri, Helvetica, Roboto, sans-serif;
     font-size: 15px;
@@ -3986,8 +3986,8 @@ div.slide-panel-footer {
     position: absolute;
     top: .5em;
     right: .5em;
-    color: #006064;
-    fill: #006064;
+    color: #009999;
+    fill: #009999;
     font-size: 20px;
     cursor: pointer
 }
@@ -4700,7 +4700,7 @@ div.slide-panel-footer {
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     border: 6px solid transparent;
-    border-top-color: #006064;
+    border-top-color: #009999;
     border-radius: 5000px
 }
 
@@ -5220,7 +5220,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-actions .offer-action-print:hover .icon-print {
-        fill: #006064
+        fill: #009999
     }
 }
 
@@ -5239,7 +5239,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-actions .offer-action-print.is-active .icon-print {
-    fill: #006064
+    fill: #009999
 }
 
 .offer-redemption-actions .offer-action-email {
@@ -5255,7 +5255,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-actions .offer-action-email:hover .icon-envelope {
-        fill: #006064
+        fill: #009999
     }
 }
 
@@ -5274,7 +5274,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-actions .offer-action-email.is-active .icon-envelope {
-    fill: #006064
+    fill: #009999
 }
 
 .offer-redemption-actions .offer-action-text {
@@ -5290,7 +5290,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-actions .offer-action-text:hover .icon-phone {
-        fill: #006064
+        fill: #009999
     }
 }
 
@@ -5309,7 +5309,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-actions .offer-action-text.is-active .icon-phone {
-    fill: #006064
+    fill: #009999
 }
 
 .offer-redemption-actions [class*=offer-action-] .icon {
@@ -5851,7 +5851,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-print:hover .icon-print {
-        fill: #006064
+        fill: #009999
     }
 }
 
@@ -5870,7 +5870,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-print.is-active .icon-print {
-    fill: #006064
+    fill: #009999
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-email {
@@ -5886,7 +5886,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-email:hover .icon-envelope {
-        fill: #006064
+        fill: #009999
     }
 }
 
@@ -5905,7 +5905,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-email.is-active .icon-envelope {
-    fill: #006064
+    fill: #009999
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-text {
@@ -5921,7 +5921,7 @@ div.slide-panel-footer {
         color: #222
     }
     .offer-redemption-modal .offer-redemption-actions .offer-action-text:hover .icon-phone {
-        fill: #006064
+        fill: #009999
     }
 }
 
@@ -5940,7 +5940,7 @@ div.slide-panel-footer {
 }
 
 .offer-redemption-modal .offer-redemption-actions .offer-action-text.is-active .icon-phone {
-    fill: #006064
+    fill: #009999
 }
 
 .offer-redemption-modal .offer-redemption-actions [class*=offer-action-] .icon {
@@ -6528,7 +6528,7 @@ input.query::webkit-search-cancel-button {
 
 .site-nav .site-nav-link.is-open,
 .site-nav .site-nav-link:hover {
-    /*background-color: #006064
+    /*background-color: #009999
 ;
     color:white;
     text-decoration: none*/
@@ -6822,7 +6822,7 @@ input.query::webkit-search-cancel-button {
     position: absolute;
     top: 30px;
     left: 8px;
-    fill: #006064;
+    fill: #009999;
     cursor: pointer
 }
 
@@ -6973,7 +6973,7 @@ input.query::webkit-search-cancel-button {
 }
 
 .popular-links .popular-content-text {
-    color: #006064;
+    color: #009999;
     margin-bottom: 0
 }
 
@@ -6985,7 +6985,7 @@ input.query::webkit-search-cancel-button {
 
 .popular-links .icon-close,
 .popular-links .icon-minus-circle {
-    fill: #006064;
+    fill: #009999;
     margin-top: 2px;
     margin-right: 6px
 }
@@ -7441,8 +7441,8 @@ input.query::webkit-search-cancel-button {
 .email-modal .email-modal-content-inner .button-close {
     border: 0;
     background: none;
-    fill: #006064;
-    color: #006064;
+    fill: #009999;
+    color: #009999;
     position: relative;
     cursor: pointer;
     top: 10px
@@ -8037,7 +8037,7 @@ body {
 
 /*#237A87; 2190A1      41C1D4  hederis dzebnis gilaki*/
 .categories {
-    background: #006064 !important;
+    background: #009999 !important;
     ;
     height: auto!important;
     ;
@@ -8165,7 +8165,7 @@ input[type=date],input[type=email],input[type=number],input[type=password],input
     display: block;
     width: 100%;
     padding: .5em;
-    border: 1px solid #006064;
+    border: 1px solid #009999;
     border-radius: 3px;
     font-family: Avenir Next,Calibri,Helvetica,Roboto,sans-serif;
     font-size: 15px;
@@ -8174,4 +8174,839 @@ input[type=date],input[type=email],input[type=number],input[type=password],input
 
 .query{
     line-height: normal !important;
+}
+
+
+.orange h2, .orange h4{
+    color: #ff8b02;
+}
+
+/* =========================================================================================== 
+NAVIGATION BACKGROUND COLORS ------------------------------------------------------------------
+============================================================================================== */
+.navbar-default {
+    background: #ffffff;
+    border-color: #e7e7e7;
+}
+
+.navbar-collapse ul.navbar-nav li a {
+    color: #626262;
+}
+.navbar-collapse ul.dd-custom li a {
+    background: #ffffff;
+    color: #626262;
+}
+
+
+/* =========================================================================================== 
+----------------------------------------------------------------------------------------------
+==============================  MAIN STARTS FROM HERE  =======================================
+==============================  MAIN STARTS FROM HERE  =======================================
+----------------------------------------------------------------------------------------------
+============================================================================================== */
+body {
+    background: #ffffff;
+}
+
+/* =========================================================================================== 
+BORDERS COLORS -------------------------------------------------------------------------------
+============================================================================================== */
+
+.btn-coupon, button.btn-coupon:hover, button.btn-coupon:active, button.btn-coupon:focus, .navbar-collapse ul.dd-custom, ul.dd-custom, .blog-pagination .pagination li a, .blog-pagination .pagination li span, .form-control, .category-divider, hr, .widget-line-divider, .top-20-tabs ul.nav-tabs li, .featured-item, .featured-item-content, .featured-item .logotype, .blog-inner, .blog-content, .special, .special-item-inner, .blog-inner, .clients, .coupon-content, .register, .ssba, .meta-tags, .widget-caption, .media, .widget-caption, .time-caption, .countdown .days, .widget .widget-inner ul:not(.dd-custom) li, .slider-track, .profile-tabs ul.vertical-tabs li, .profile-tab-pane, .modal-header {
+    border-color: #e5e5e5;
+}
+
+button.code_type:active:focus{
+    border: 1px solid #e5e5e5;
+}
+/* =========================================================================================== 
+TITLES COLORS --------------------------------------------------------------------------------
+============================================================================================== */
+
+/*SCREEN HEADER*/
+
+.slogan h1, .slogan p {
+    color: #ffffff;
+}
+/*MAIN PART OF THE PAGES*/
+
+.btn-coupon, .profile-info p, .comment-caption h3, small.info, .special-caption h2, .blog-title h2, .category-caption h2, .contact-caption h2, .top-caption h2, .blog-caption h3, .modal-caption h3, .featured-item-content h4, .blog-content h4, .single-letter h3, .widget-caption h4, .main_content h1, .main_content h2, .main_content h3, .main_content h4, .main_content h5, .comment-body h4, .media-body h2 strong, .profile-tab-pane h2 strong, .profile-tab-pane p, .profile-tabs ul.vertical-tabs li a, .profile-tabs ul.vertical-tabs li a:hover, fieldset label, .single-letter-list ul li a {
+    color: #333333;
+}
+
+/*DISCOUNT ARROW BEFORE*/
+
+.coupon-inner:before {
+    color: #e5e5e5;
+}
+/*SHOP LISTING FILTERS*/
+
+.shop-filter ul li a, .shop-filter ul li a:hover {
+    color: #ffffff;
+}
+
+/*PAGINTION*/
+
+.blog-pagination ul li a, .blog-pagination ul li span {
+    color: #212121;
+}
+.blog-pagination ul li span:hover{
+    color: #212121;
+}
+.blog-pagination ul li.active a, .blog-pagination ul li.active a:hover {
+    color: #ffffff;
+}
+
+/* =========================================================================================== 
+FEATURED BOX COLORS --------------------------------------------------------------------------
+============================================================================================== */
+
+/*FEATURED STICKY*/
+
+.featured-mask {
+    background-color: #ff8b02;
+}
+.featured-mask p {
+    color: #ffffff;
+}
+/*FEATURED CONTENT*/
+
+.featured-item-content p, p.logged-in-as, p.form-allowed-tags, .profile-intro .profile-media .media-body p,
+.category-caption p, .main_content,
+.comment-body p, .post .blog-inner .blog-post-content .text p, .blog-content p,
+.shop-promo-title h4 p,
+.widget .profile .profile-text p,
+.comment-notes,
+.text p{
+    color: #6d6d6d;
+}
+.item-meta ul li a, .item-meta ul li a:hover {
+    color: #8f8f8f;
+}
+.item-meta ul li a.info span:before, .item-meta ul li a span, .blog-meta ul li:last-child a span, .item-meta ul li a span:hover, .blog-post-content .blog-meta ul li a span:before {
+    color: #dadada;
+}
+.daily-meta ul li a, .daily-meta ul li a:hover, .countdown-listing .kkcountdown-box, .countdown-listing .kkcountdown-box span, .countdown-listing .kkcountdown-box span:hover {
+    color: #292929;
+}
+/* =========================================================================================== 
+SPECIAL CATEGORIES & BLOG LATEST HEADERS COLORS ----------------------------------------------
+============================================================================================== */
+
+/*SPECIAL BACKGROUND*/
+
+.special {
+    background-color: #f9fbfb;
+}
+/*SPECIAL ELEMENTS*/
+
+.special-item-inner {
+    background-color: #ffffff;
+}
+.special-item-inner .special-icon span, .special-item-inner .special-icon h3 {
+    color: #212121;
+}
+
+
+/* =========================================================================================== 
+TABS COLORS ----------------------------------------------------------------------------------
+============================================================================================== */
+
+.filter-tabs ul.nav-tabs li {
+    background-color: rgba(255, 255, 255, .8);
+}
+.filter-tabs ul.nav-tabs li a, .filter-tabs ul.nav-tabs li a:hover {
+    color: #212121;
+}
+/*HOVER*/
+
+.filter-tabs ul.nav-tabs li.active a, .filter-tabs ul.nav-tabs li.active a:hover {
+    color: #ffffff;
+}
+
+/* =========================================================================================== 
+TOP 20 TABS COLORS ---------------------------------------------------------------------------
+============================================================================================== */
+
+/*TABS*/
+.top-20-tabs ul.nav-tabs li{
+    background: transparent;
+}
+.top-20-tabs ul.nav-tabs li a, .top-20-tabs ul.nav-tabs li a:hover, .top-20-tabs ul.nav-tabs li a:active {
+    color: #212121;
+}
+
+.top-20-tabs ul.nav-tabs li.active a, .top-20-tabs ul.nav-tabs li.active a:hover, .btn.btn-custom{
+    color: #ffffff;
+}
+
+
+
+/* =========================================================================================== 
+----------------------------------------------------------------------------------------------
+==============================  FOOTER STARTS FROM HERE  =====================================
+==============================  FOOTER STARTS FROM HERE  =====================================
+----------------------------------------------------------------------------------------------
+============================================================================================== */
+
+
+/* =========================================================================================== 
+FOOTER COLORS --------------------------------------------------------------------------------
+============================================================================================== */
+
+/*FOOTER BACKGROUND*/
+
+.footer {
+    background-color: #292929;
+}
+/*FOOTER ELEMENTS*/
+
+.footer-caption h3 {
+    color: #ffffff;
+}
+
+.footer_widget,
+.footer_widget p,
+.footer_widget .widget-content .time .time-content span div:not(.days),
+.footer .footer_widget ul.list-group li a,
+.footer_widget .widget-content .time .time-content span.coupon-meta-caption,
+.footer_widget .widget-content h5,
+.footer_widget .widget-content .time .time-caption p,
+.footer_widget .widget-content .timeline p,
+.newsletter p,
+.footer .widget ul.faq li a, .about ul li a {
+    color: #8f8f8f;
+}
+
+.footer_widget .form-control-news {
+    background-color: #313131;
+    border: 1px solid #484848;
+}
+
+.right_widget .widget-inner .newsletter fieldset .input-group input{
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+}
+
+.footer .social ul.soc-icons li a i, .footer .widget ul li a {
+    color: #ffffff;
+}
+/*HOVER*/
+
+.footer .widget ul.faq li a:hover, .about ul li a:hover {
+    color: #ffffff;
+}
+
+/* =========================================================================================== 
+COPYRIGHT & BOTTOM NAV COLORS ----------------------------------------------------------------
+============================================================================================== */
+
+.copyright, .footer .navbar {
+    background: #ffffff;
+}
+
+.navbar-header small,
+.bottom-nav .navbar-collapse ul li a {
+    color: #878686;
+}
+
+/* =========================================================================================== 
+MODAL COLORS ---------------------------------------------------------------------------------
+============================================================================================== */
+
+.showCode-content {
+    background: #ffffff;
+}
+p.modal_text {
+    color: #212121;
+}
+button.close, button.close:hover {
+    color: #e5e5e5;
+}
+/* =========================================================================================== 
+WIDGET COLORS --------------------------------------------------------------------------------
+============================================================================================== */
+
+.widget h5,
+.time-caption p,
+.time-content span.coupon-meta-caption,
+.countdown,
+.widget .widget-inner ul li a,
+.timeline p,
+.widget .widget-inner .time-caption a {
+    color: #212121;
+}
+
+.widget .widget-inner ul li a:hover, .widget .widget-inner a:hover{
+    color: #8f8f8f;
+}
+
+a.btn.btn-custom:hover{
+    color: #ffffff;
+}
+
+.right_widget .badge {
+    background-color: #313030;
+    color: #ffffff;
+}
+
+.footer_widget .badge {
+    background-color: #ffffff;
+    color: #313030;
+}
+
+.screen{
+    background: url(http://demo.powerthemes.club/themes/couponer/wp-content/uploads/2014/06/12.jpg) no-repeat fixed center;
+    background-color: #23b5ab;
+}
+
+@media only screen and (max-width: 1030px) {
+    .screen{
+        background: url(http://demo.powerthemes.club/themes/couponer/wp-content/uploads/2014/06/12.jpg) no-repeat center;
+        background-color: #23b5ab;
+    }
+}
+.filter-tabs ul.nav-tabs li.active:before{
+    color: #24b6ac;
+}
+p.code-replace:before{
+    color: #24b6ac;
+}
+
+p.code-replace:after{
+    color: #24b6ac;
+}
+
+.special-item a:hover .special-item-inner,
+.blog-pagination ul li.active a,
+.blog-pagination ul li a:hover,
+.blog-pagination ul li.active a:hover
+{
+    border: 1px solid #24b6ac;
+}
+
+p.code-replace, p.code-replace:hover, p.code-replace:focus{
+    border: 3px solid #24b6ac;
+}
+
+.sticky{
+    border-bottom:5px solid #24b6ac;
+}
+
+.shop-filter,
+.to-top a{
+    background: #24b6ac;
+}
+
+.register .register-form input[type="text"]:focus, .register .register-form input[type="password"]:focus, .register .register-form input[type="email"]:focus, .register .register-form textarea:focus, .form-control-custom:focus, .form-control-custom:focus{
+    border-color: #24b6ac;
+}
+
+
+.green,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a,
+.navbar-collapse ul.navbar-nav li a:hover,
+.navbar-collapse ul.navbar-nav li a.active,
+.item-meta ul li:last-child a span,
+.special-item a:hover .special-item-inner,
+.widget .profile .profile-info a,
+.comment-body a,
+.comment-body a:hover,
+.featured-item-container .featured-item .featured-item-content a:hover,
+.send_result p.success,
+.forgot a, .forgot a:hover,
+.single-letter-list ul li a:hover,
+.profile-tabs ul.vertical-tabs li.active a,
+.pass a,
+.profile-item-content p a, .profile-item-content p a:hover,
+.widget .widget-inner ul li.recentcomments a,
+.widget .widget-caption h4 a.rsswidget, .footer .widget .footer-caption h3 a.rsswidget,
+.widget .widget-caption h4 a.rsswidget, .footer .widget .footer-caption h3 a.rsswidget,
+.widget .widget-inner ul li a.rsswidget, .footer .widget .widget ul li a.rsswidget,
+#wp-calendar tbody td a,
+#wp-calendar tbody td a:hover,
+#wp-calendar tfoot #next a,
+#wp-calendar tfoot #prev a ,
+.footer #wp-calendar tbody td a,
+.footer #wp-calendar tbody td a:hover,
+.footer #wp-calendar tfoot #next a,
+.footer #wp-calendar tfoot #prev a,
+.tagcloud a,
+.tagcloud a:hover,
+.footer .widget ul li a.rsswidget,
+.footer .widget ul li a.rsswidget:hover,
+.footer #wp-calendar tfoot tr td a,
+.footer #wp-calendar tbody tr td a,
+p.code-replace, p.code-replace:hover, p.code-replace:focus,
+p.logged-in-as a, p.logged-in-as a:hover,
+.avatar-delete a,
+a{
+    color: #24b6ac;
+}
+
+/*HOVER*/
+
+.navbar-collapse ul.dd-custom li a:hover {
+    background-color: rgba(36, 182, 172, .9);
+    color: #ffffff;
+}
+
+.green-bg,
+.btn-custom,
+.filter-tabs ul.nav-tabs li.active, .filter-tabs ul.nav-tabs li.active a:focus,
+.filter-tabs ul.nav-tabs li.active:focus a,
+.blog-pagination ul li.active a,
+.blog-pagination ul li a:hover,
+.blog-pagination ul li.active a:hover,
+.widget .widget-inner .widget-content .dropdown button:focus, .widget .widget-inner .widget-content .dropdown button:hover,
+.panel-default>.panel-heading,
+button.btn-coupon:hover, button.btn-coupon:focus, button.btn-coupon:active,
+.btn-coupon.btn-coupon-clicked,
+.popover h3.popover-title,
+.slider-handle
+{
+    background-color: #24b6ac;
+}
+
+
+.navbar-collapse ul.dd-custom li a:hover{
+    background-color: rgba(36, 182, 172, .9);
+}
+
+.register .register-form input[type="text"]:focus, .register .register-form input[type="password"]:focus, .register .register-form input[type="email"]:focus, .register .register-form textarea:focus, .form-control-custom:focus, .form-control-custom:focus  {
+    -webkit-box-shadow: 0 0 8px rgba(36, 182, 172, .6);
+    box-shadow: 0 0 8px rgba(36, 182, 172, .6); 
+}
+
+a.btn-top, a.btn-top:focus, a.btn-top:active, a.btn-top:hover{
+    background: -webkit-linear-gradient(-225deg, rgba(255,255,255,0.2) 0, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%), rgba(36, 182, 172,1);
+    background: -moz-linear-gradient(315deg, rgba(255,255,255,0.2) 0, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%), rgba(36, 182, 172,1);
+    background: linear-gradient(315deg, rgba(255,255,255,0.2) 0, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%), rgba(36, 182, 172,1);
+    background-position: auto auto;
+    -webkit-background-size: 25px 25px;
+    background-size: 25px 25px; 
+}
+a.blue-bg, a.blue-bg:hover, a.blue-bg:focus, a.blue-bg:active {
+    background: #2ca9e0;
+}
+
+.pass a:hover, .avatar-delete a:hover{
+    color: #24caac;
+}
+
+.blog-icon-mask:hover,
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active{
+    background-color: #24caac;
+}
+.bottom-nav, .widget ul li, .special-item .coupon-inner {
+    background: transparent;
+}
+
+/* SIDEBAR DROPDOWNS */
+button.dropdown-toggle.btn, button.dropdown-toggle.btn:hover, button.dropdown-toggle.btn:active, button.dropdown-toggle.btn:focus, .open .dropdown-toggle.btn-categories{
+    color: #212121;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.widget button.dropdown-toggle.btn, .widget button.dropdown-toggle.btn:hover, .widget button.dropdown-toggle.btn:active, .widget button.dropdown-toggle.btn:focus{
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+}
+
+.widget .widget-inner .widget-content .dropdown button:hover, 
+.widget .widget-inner .widget-content .dropdown button:active, 
+.widget .widget-inner .widget-content .dropdown button:focus{
+    color: #24b6ac;
+}
+
+.widget .widget-inner .widget-content .dropdown button:hover, 
+.widget .widget-inner .widget-content .dropdown button:active, 
+.widget .widget-inner .widget-content .dropdown button:focus,
+.widget .widget-inner .widget-content .dropdown button:hover span, 
+.widget .widget-inner .widget-content .dropdown button:active span, 
+.widget .widget-inner .widget-content .dropdown button:focus span{
+    color: #ffffff;
+}
+
+/* FOOTER DROPDOWNS */
+.widget.footer_widget button.dropdown-toggle.btn{
+    color: #212121;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+}
+
+.widget.footer_widget button.dropdown-toggle.btn:hover, 
+.widget.footer_widget button.dropdown-toggle.btn:active, 
+.widget.footer_widget button.dropdown-toggle.btn:focus{
+    background-color: #24b6ac;
+    color: #ffffff;
+}
+
+/* PACK AND OPEN BUTTON */
+
+a.blue-bg, a.blue-bg:hover, a.blue-bg:focus, a.blue-bg:active {
+    background-color: #2ca9e0;
+    color: #ffffff;  
+}
+
+a.btn-top, a.btn-top:hover, a.btn-top:focus, a.btn-top:active {
+    color: #ffffff;  
+}
+
+/* BUTTON ARROWS */
+a.btn-top:before, a.btn-top:after {
+    color: #ffffff;  
+}
+
+/* TOP20 ACTIVE TAB BORDER COLOR */
+
+.top-20-tabs ul.nav-tabs li.active {
+    border-color: #e5e5e5;;  
+}
+
+
+
+/*LOGIN | REGISTER ERROR TEXT */
+
+small.text-danger {
+    color: #ff4f53;
+}
+
+/* DROPDOWNS */
+ul.dropdown-menu {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+
+ul.dropdown-menu li a, .widget ul.dropdown-menu li a { 
+    color: #212121;
+}
+
+ul.dropdown-menu li a:hover, .widget .widget-inner .widget-content .dd-widget li a:hover {
+    background-color: rgba(33, 33, 33, .9);
+        color: #ffffff;
+}
+/*  SIDEBAR DROPDOWN CONTENT */
+.widget ul.dropdown-menu {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+
+.widget ul.dropdown-menu li a, .widget ul.dropdown-menu li a { 
+    color: #333333;
+}
+
+.widget ul.dropdown-menu li a:hover, .widget .widget-inner .widget-content .dd-widget li a:hover {
+    background-color: rgba(33, 33, 33, .9);
+        color: #ffffff;
+}
+
+/* FOOTER DROPDOWN CONTENT */
+.widget.footer_widget ul.dropdown-menu {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+
+.widget.footer_widget ul.dropdown-menu li a, .widget ul.dropdown-menu li a { 
+    color: #212121;
+}
+
+.widget.footer_widget ul.dropdown-menu li a:hover, .widget .widget-inner .widget-content .dd-widget li a:hover {
+    background-color: rgba(33, 33, 33, .9);
+        color: #ffffff;
+}
+
+
+/* THE REST OF THE PLACEHOLDERS */
+.form-group .form-control {
+    color: #292929;
+}
+
+.form-group .form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color: #292929;
+}
+.form-group .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #292929;
+    opacity:  1;
+}
+.form-group .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #292929;
+    opacity:  1;
+}
+.form-group .form-control-custom:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #292929;
+}
+
+/* AJAX SEARCH */
+.form-horizontal .form-group .form-control, .ajax_search_results ul {
+    background-color: rgba(41, 41, 41, .9);
+}
+
+.form-horizontal .form-group input[type="text"], .ajax_search_results ul li a {
+    color: #ffffff;
+}
+
+.ajax_search_results ul li a:hover {
+        color: #212121;
+        background-color: rgba(255, 255, 255, .9);  
+}
+
+.filters .form-horizontal .has-feedback .form-control-feedback{
+    color: #ffffff;
+}
+
+.form-horizontal .form-group .form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color: #dadada;
+}
+.form-horizontal .form-group .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #dadada;
+    opacity: 1;
+}
+.form-horizontal .form-group .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #dadada;
+    opacity: 1;
+}
+.form-horizontal .form-group .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #dadada;
+}
+    .navbar-brand{
+        width: 140px;
+    }
+    
+    @media only screen and (min-width: 780px) {
+        .navbar-brand img{
+            padding: 12px 0px 0px 0px;
+        }
+    }   
+.expired, .expired h2, .expired h3, .expired h4, .expired h4 p, .expired p, .expired a, .expired ul li a span, .expired .disabled {
+    color: #e5e5e5;
+    border-color: #e5e5e5;
+}
+
+.expired .disabled {
+    background-color: #e5e5e5 !important;
+    color: #fff;
+}
+
+.expired .shop-meta {
+    color: #dadada;
+}
+
+.navbar {
+    background: #fff;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-collapse ul.navbar-nav li {
+    padding: 20px 3px;
+}
+
+.navbar-collapse ul.navbar-nav li.dropdown {
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a {
+    color: #24b6ac;
+}
+
+.navbar-default .navbar-nav>.open>a span, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: transparent;
+    color: #626262;
+}
+
+.navbar-collapse ul.navbar-nav li a {
+    color: #626262;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.navbar-collapse ul.navbar-nav li a:hover {
+    color: #24b6ac;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.navbar-collapse ul.navbar-nav li a.active {
+    color: #24b6ac;
+}
+
+.navbar-collapse ul.dd-custom {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+}
+
+.navbar-collapse ul.dd-custom li {
+    padding: 0;
+}
+
+.navbar-collapse ul.dd-custom li a {
+    padding: 10px 20px;
+    color: #000;
+    font-size: 13px;
+}
+
+.navbar-collapse ul.dd-custom li a i {
+    padding-right: 13px;
+}
+
+.navbar-collapse ul.dd-custom li a i.fa-tags {
+    padding-right: 8px;
+}
+
+.navbar-collapse ul.dd-custom li a:hover {
+    color: #fff;
+    background-color: rgba(36, 182, 172, .9);
+}
+
+.navbar-collapse ul.navbar-nav li.dropdown a span {
+    font-size: 17px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: transparent;
+    color: #24b6ac;
+}
+
+/*.navbar-brand img {
+    padding-top: 22px;
+}*/
+
+.navbar-right .dropdown-menu {
+    left: 0;
+}
+
+.dropdown-menu .dropdown-menu {
+    position: absolute;
+    left: 157px;
+    top: 2px;
+    float: none;
+    padding: 0px 0;
+    margin: 0px 0 0;
+    list-style: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-clip: padding-box;
+}
+.dropdown-menu>li>a {
+    white-space: normal;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    padding: 10px 20px 10px 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #fff;
+}
+nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.logo-space {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav {
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+.no-li-padding ul.navbar-nav li {
+    padding: 0;
+}
+
+.navbar-brand {
+    display: table;
+    padding: 5px;
+    width: 140px;
+    height: auto;
+}
+
+.navbar-brand img {
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.navbar-header-2 {
+    float: none;
+}
+
+.navbar-brand-2 {
+    float: none;
+    display: block;
+    width: 100%;
+}
+
+.navbar-brand-2 img {
+    padding-top: 0;
+    display: inline-block;
+}
+
+.navbar-collapse ul.navbar-nav li a {
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 1030px) {
+.navbar-right .dropdown-menu {
+    left: -75px;
+}
+
+
+}
+
+@media only screen and (max-width: 780px) {
+.navbar-collapse ul.navbar-nav li {
+    padding: 0;
+    border-bottom: none;
+    font-size: 13px;
+}
+
+.navbar-collapse ul.dd-custom li {
+    border: none;
+}
+
+.nav>li>a {
+    padding: 15px 7px;
+}
+
+.navbar-right .dropdown-menu {
+    left: -100px;
+}
+
+.navbar-collapse ul.dd-custom li a {
+    font-size: 12px;
+}
+
+.navbar-brand img {
+    padding-top: 0;
+}
+
 }
