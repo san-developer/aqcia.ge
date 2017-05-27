@@ -5,23 +5,7 @@ var TWITTER_USERNAME = 'envato',
     GOOGLE_MAP_LNG = -73.9743277;
 
 
-// Countdown
-$(function() {
-    $('.countdown').each(function() {
-        var count = $(this);
-        $(this).countdown({
-            zeroCallback: function(options) {
-                var newDate = new Date(),
-                    newDate = newDate.setHours(newDate.getHours() + 130);
 
-                $(count).attr("data-countdown", newDate);
-                $(count).countdown({
-                    unixFormat: true
-                });
-            }
-        });
-    });
-});
 
 
 // Bootstrap carousel
@@ -346,7 +330,7 @@ $(function() {
     var d = new Date();
     d = d.setDate(d.getDate() + 2);
     d = new Date(d);
-    
+
     $('span#clock').countdown('2017/05/30 12:34:56')
         .on('update.countdown', function(event) {
             $(this).html(event.strftime('%D დღე %H:%M:%S'));
@@ -356,4 +340,32 @@ $(function() {
                 .parent().addClass('disabled');
 
         });
+
+    $('.cd-tab-filter li').on('click', function(event) {
+        debugger
+        $('.cd-tab-filter .selected').removeClass('selected');
+            $(event.target).addClass('selected');
+            return; 
+
+        //check if user has clicked the placeholder item
+        if ($(event.target).is(filter_tab_placeholder)) {
+            (filter_tab_placeholder_default_value == filter_tab_placeholder.text()) ? filter_tab_placeholder.text(filter_tab_placeholder_text): filter_tab_placeholder.text(filter_tab_placeholder_default_value);
+            $('.cd-tab-filter').toggleClass('is-open');
+
+            //check if user has clicked a filter already selected 
+        } else if (filter_tab_placeholder.data('type') == selected_filter) {
+            filter_tab_placeholder.text($(event.target).text());
+            $('.cd-tab-filter').removeClass('is-open');
+
+        } else {
+            //close the dropdown and change placeholder text/data-type value
+            $('.cd-tab-filter').removeClass('is-open');
+            filter_tab_placeholder.text($(event.target).text()).data('type', selected_filter);
+            filter_tab_placeholder_text = $(event.target).text();
+
+            //add class selected to the selected filter item
+            $('.cd-tab-filter .selected').removeClass('selected');
+            $(event.target).addClass('selected');
+        }
+    });
 });
